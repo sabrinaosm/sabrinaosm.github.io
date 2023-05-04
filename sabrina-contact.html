@@ -42,6 +42,13 @@
                 margin-top: 30px;
             }
 
+            .card-title {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-bottom: 20px;
+            }
+
             .gradient-border {
                 display: flex;
                 justify-content: center;
@@ -59,6 +66,29 @@
                 padding: 5px;
                 border: 0px;
             }
+
+            p {
+                padding: 20px;
+                text-align: left;
+            }
+
+            @media screen and (max-width: 450px) {
+                .card {
+                    width: 300px;
+                }
+
+                .card-title {
+                    flex-direction: column;
+                }
+                h1 {
+                    font-size: 35px;
+                }
+
+                p {
+                    font-size: 15px;
+                    padding: 20px;
+                }
+        }
 
         </style>
     </head>
@@ -81,11 +111,11 @@
         <div class="container">
             <div class="card">
                 <div class="card-body">
-                    <div class="d-flex justify-content-center align-items-center" style="margin-bottom: 20px;">
+                    <div class="card-title">
                         <img src="assets/celebrate.png" alt="" width="150px" height="100%">
                         <h1 style="font-weight: bold; text-align: right; margin-right: 30px;margin-top: 18px; color: darkolivegreen;">Say hi and let's work together!</h1>
                     </div>
-                    <p style="text-align: center; margin: 30px;">Don't worry, I hate forms too! Just shoot me an email at nursabrinaosm@gmail.com or connect with me on LinkedIn and I'll be in touch ASAP! Can't wait to connect &#129321</p>
+                    <p>Don't worry, I hate forms too! Just shoot me an email at nursabrinaosm@gmail.com or connect with me on <a style="color: black;" href="http://linkedin.com/in/sabrinaosman/">LinkedIn</a> and I'll be in touch ASAP! Can't wait to connect! &#129321</p>
                     <div class="gradient-border">
                         <a class="inner-contact" href="mailto:nursabrinaosm@gmail.com?subject=Let's work together!" style="text-decoration: none; font-weight: bold; color: black">Hit my email!</a>
                     </div>
