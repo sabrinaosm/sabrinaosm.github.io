@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sabrina - Contact</title>
+        <script defer src="node_modules/swup/dist/swup.min.js"></script>
+        <script defer src="script.js"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Playfair+Display:wght@400;900&family=Raleway:wght@300&family=Varela+Round&family=Work+Sans:wght&display=swap');
+            
+            body {
+                font-family: 'Inconsolata', sans-serif;
+                background-color: rgb(244, 244, 244);
+            }
+
+            .nav {
+                margin-top: 30px;
+                justify-content: center;
+                padding: 10px;
+            }
+
+            .nav-link {
+                font-size: 13px;
+                color: darkolivegreen
+            }
+
+            .container {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .card {
+                width: 800px; 
+                box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; 
+                border-radius: 30px; 
+                padding: 10px; 
+                margin-top: 30px;
+            }
+
+            .gradient-border {
+                display: flex;
+                justify-content: center;
+                border-radius: 30px;
+                padding: 5px;
+                background: linear-gradient(to right, pink, lightyellow, lightgreen);
+            }
+
+            .inner-contact {
+                background-color: white;
+                display: flex;
+                justify-content: center;
+                width: 100%;
+                border-radius: 30px;
+                padding: 5px;
+                border: 0px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <ul class="nav nav-pills">
+            <div style="display: flex;">
+                <li class="nav-item">
+                    <a class="nav-link" href="sabrina.html" >Sabrina</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="sabrina-projects.html">Projects</a>
+                </li>
+                <div style="justify-content: flex-end;">
+                    <li class="nav-item" >
+                        <a href="sabrina-contact.html" class="nav-link active" style="background-color: darkolivegreen; border-radius: 25px;">Contact</a>
+                    </li>
+                </div>
+            </div>
+        </ul>
+        <div class="container">
+            <div class="card">
+                <div class="card-body">
+                    <div class="d-flex justify-content-center align-items-center" style="margin-bottom: 20px;">
+                        <img src="celebrate.png" alt="" width="150px" height="100%">
+                        <h1 style="font-weight: bold; text-align: right; margin-right: 30px;margin-top: 18px; color: darkolivegreen;">Say hi and let's work together!</h1>
+                    </div>
+                    <p style="text-align: center; margin: 30px;">Don't worry, I hate forms too! Just shoot me an email at nursabrinaosm@gmail.com or connect with me on LinkedIn and I'll be in touch ASAP! Can't wait to connect &#129321</p>
+                    <div class="gradient-border">
+                        <a class="inner-contact" href="mailto:nursabrinaosm@gmail.com?subject=Let's work together!" style="text-decoration: none; font-weight: bold; color: black">Hit my email!</a>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        
+    </body>
+</html>
